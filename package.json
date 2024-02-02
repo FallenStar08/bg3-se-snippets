@@ -24,6 +24,7 @@
     ]
   },
   "files.exclude": {
+    "*.gif":true,
     "**/*.gif": true
   }
 }
