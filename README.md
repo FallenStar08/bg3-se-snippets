@@ -4,8 +4,7 @@
 
 Lua code snippets for the [baldur's gate 3 script extender](https://github.com/Norbyte/bg3se)
 
-![](https://github.com/FallenStar08/bg3-se-snippets/blob/master/.resources/BG3-Snippets-Demo.gif)
-
+![demo](https://github.com/FallenStar08/bg3-se-snippets/blob/master/.resources/BG3-Snippets-Demo.gif?raw=true)
 
 ## Features
 
