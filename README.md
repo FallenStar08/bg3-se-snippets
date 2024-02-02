@@ -3,7 +3,7 @@
 
 ## Features
 
-![](https://github.com/FallenStar08/bg3-se-snippets/.resources/BG3-Snippets-Demo.gif)
+![](https://github.com/FallenStar08/bg3-se-snippets/blob/master/.resources/BG3-Snippets-Demo.gif)
 
 ## Requirements
 
