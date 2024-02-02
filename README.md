@@ -1,58 +1,26 @@
-# bg3-se-snippets README
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/FallenStar.replacewithgoodname.svg)](https://marketplace.visualstudio.com/items?itemName=FallenStar.replacewithlinklater)
+
+## Overview
+
+Lua code snippets for the baldur's gate 3 script extender
+
+![](https://github.com/FallenStar08/bg3-se-snippets/blob/master/.resources/BG3-Snippets-Demo.gif)
 
 
 ## Features
 
-![](https://github.com/FallenStar08/bg3-se-snippets/blob/master/.resources/BG3-Snippets-Demo.gif)
+- Snippets for all Osiris events
+- More to come, maybe
 
-## Requirements
+## Installation
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or use the keyboard shortcut `Ctrl+Shift+X`.
+3. Search for "BG3-SE-Snippets".
+4. Click the "Install" button.
 
-## Extension Settings
+[MarketPlace Link](https://marketplace.visualstudio.com/items?itemName=FallenStar.replacewithlinklater)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Contact
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+For questions or feedback, you can reach out to the author, FallenStar, on [GitHub](https://github.com/FallenStar08).
