@@ -22,5 +22,8 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "files.exclude": {
+    "**/*.gif": true
   }
 }
