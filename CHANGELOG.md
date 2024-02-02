@@ -7,3 +7,4 @@
 ## [1.0.1] - 2024-02-02
 
 - Fix MarketPlace links
+- Added License stuff
