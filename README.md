@@ -1,5 +1,5 @@
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/FallenStar.bg3-se-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=FallenStar.bg3-se-snippets)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/FallenStar08/bg3-se-snippets/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/FallenStar08/bg3-se-snippets/blob/master/LICENSE)
 
 ## Overview
 
