@@ -1,4 +1,4 @@
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/FallenStar.replacewithgoodname.svg)](https://marketplace.visualstudio.com/items?itemName=FallenStar.replacewithlinklater)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/FallenStar.bg3-se-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=FallenStar.bg3-se-snippets)
 
 ## Overview
 
@@ -18,7 +18,7 @@ Lua code snippets for the [baldur's gate 3 script extender](https://github.com/N
 3. Search for "BG3-SE-Snippets".
 4. Click the "Install" button.
 
-[MarketPlace Link](https://marketplace.visualstudio.com/items?itemName=FallenStar.replacewithlinklater)
+[MarketPlace Link](https://marketplace.visualstudio.com/items?itemName=FallenStar.bg3-se-snippets)
 
 ## Contact
 
