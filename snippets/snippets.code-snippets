@@ -1,0 +1,2490 @@
+{
+    "Activated": {
+        "prefix": "activated",
+        "scope": "lua",
+        "description": "activated listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Activated\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "ActorSpeakerIndexChanged": {
+        "prefix": "actorspeakerindexchanged",
+        "scope": "lua",
+        "description": "actorspeakerindexchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ActorSpeakerIndexChanged\", 4, \"after\", function(oldIndex, newIndex, player, instanceID) $1 end)"
+        ]
+    },
+    "AddedTo": {
+        "prefix": "addedto",
+        "scope": "lua",
+        "description": "addedto listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AddedTo\", 3, \"after\", function(object, addType, inventoryHolder) $1 end)"
+        ]
+    },
+    "AllLoadedFlagsInPresetReceivedEvent": {
+        "prefix": "allloadedflagsinpresetreceivedevent",
+        "scope": "lua",
+        "description": "allloadedflagsinpresetreceivedevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AllLoadedFlagsInPresetReceivedEvent\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "AnimationEvent": {
+        "prefix": "animationevent",
+        "scope": "lua",
+        "description": "animationevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AnimationEvent\", 3, \"after\", function(object, eventName, wasFromLoad) $1 end)"
+        ]
+    },
+    "AppearTeleportFailed": {
+        "prefix": "appearteleportfailed",
+        "scope": "lua",
+        "description": "appearteleportfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AppearTeleportFailed\", 2, \"after\", function(character, appearEvent) $1 end)"
+        ]
+    },
+    "ApprovalRatingChangeAttempt": {
+        "prefix": "approvalratingchangeattempt",
+        "scope": "lua",
+        "description": "approvalratingchangeattempt listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ApprovalRatingChangeAttempt\", 5, \"after\", function(ratingOwner, newApproval, attemptedApprovalChange, clampedApprovalChange, ratedEntity) $1 end)"
+        ]
+    },
+    "ApprovalRatingChanged": {
+        "prefix": "approvalratingchanged",
+        "scope": "lua",
+        "description": "approvalratingchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ApprovalRatingChanged\", 3, \"after\", function(newApproval, ratingOwner, ratedEntity) $1 end)"
+        ]
+    },
+    "ArmedTrapUsed": {
+        "prefix": "armedtrapused",
+        "scope": "lua",
+        "description": "armedtrapused listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ArmedTrapUsed\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "ArmorSetChanged": {
+        "prefix": "armorsetchanged",
+        "scope": "lua",
+        "description": "armorsetchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ArmorSetChanged\", 2, \"after\", function(eArmorSet, character) $1 end)"
+        ]
+    },
+    "AttachedToPartyGroup": {
+        "prefix": "attachedtopartygroup",
+        "scope": "lua",
+        "description": "attachedtopartygroup listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AttachedToPartyGroup\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "AttackedBy": {
+        "prefix": "attackedby",
+        "scope": "lua",
+        "description": "attackedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AttackedBy\", 7, \"after\", function(defender, damageType, damageCause, storyActionID, damageAmount, attackerOwner, attacker2) $1 end)"
+        ]
+    },
+    "AttemptedDisarm": {
+        "prefix": "attempteddisarm",
+        "scope": "lua",
+        "description": "attempteddisarm listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AttemptedDisarm\", 4, \"after\", function(bool, character, itemUsedToDisarm, disarmableItem) $1 end)"
+        ]
+    },
+    "AutomatedDialogEnded": {
+        "prefix": "automateddialogended",
+        "scope": "lua",
+        "description": "automateddialogended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AutomatedDialogEnded\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "AutomatedDialogForceStopping": {
+        "prefix": "automateddialogforcestopping",
+        "scope": "lua",
+        "description": "automateddialogforcestopping listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AutomatedDialogForceStopping\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "AutomatedDialogRequestFailed": {
+        "prefix": "automateddialogrequestfailed",
+        "scope": "lua",
+        "description": "automateddialogrequestfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AutomatedDialogRequestFailed\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "AutomatedDialogStarted": {
+        "prefix": "automateddialogstarted",
+        "scope": "lua",
+        "description": "automateddialogstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"AutomatedDialogStarted\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "BackgroundGoalFailed": {
+        "prefix": "backgroundgoalfailed",
+        "scope": "lua",
+        "description": "backgroundgoalfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"BackgroundGoalFailed\", 2, \"after\", function(goal, character) $1 end)"
+        ]
+    },
+    "BackgroundGoalRewarded": {
+        "prefix": "backgroundgoalrewarded",
+        "scope": "lua",
+        "description": "backgroundgoalrewarded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"BackgroundGoalRewarded\", 2, \"after\", function(goal, character) $1 end)"
+        ]
+    },
+    "BaseFactionChanged": {
+        "prefix": "basefactionchanged",
+        "scope": "lua",
+        "description": "basefactionchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"BaseFactionChanged\", 3, \"after\", function(newFaction, oldFaction, target) $1 end)"
+        ]
+    },
+    "CameraReachedNode": {
+        "prefix": "camerareachednode",
+        "scope": "lua",
+        "description": "camerareachednode listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CameraReachedNode\", 5, \"after\", function(character, index, spline, event, last) $1 end)"
+        ]
+    },
+    "CanBeLootedCapabilityChanged": {
+        "prefix": "canbelootedcapabilitychanged",
+        "scope": "lua",
+        "description": "canbelootedcapabilitychanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CanBeLootedCapabilityChanged\", 2, \"after\", function(lootingTarget, canBeLooted) $1 end)"
+        ]
+    },
+    "CastSpell": {
+        "prefix": "castspell",
+        "scope": "lua",
+        "description": "castspell listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CastSpell\", 5, \"after\", function(spell, spellElement, storyActionID, caster, spellType) $1 end)"
+        ]
+    },
+    "CastSpellFailed": {
+        "prefix": "castspellfailed",
+        "scope": "lua",
+        "description": "castspellfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CastSpellFailed\", 5, \"after\", function(spell, spellElement, storyActionID, caster, spellType) $1 end)"
+        ]
+    },
+    "CastedSpell": {
+        "prefix": "castedspell",
+        "scope": "lua",
+        "description": "castedspell listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CastedSpell\", 5, \"after\", function(spell, spellElement, storyActionID, caster, spellType) $1 end)"
+        ]
+    },
+    "ChangeAppearanceCancelled": {
+        "prefix": "changeappearancecancelled",
+        "scope": "lua",
+        "description": "changeappearancecancelled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ChangeAppearanceCancelled\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "ChangeAppearanceCompleted": {
+        "prefix": "changeappearancecompleted",
+        "scope": "lua",
+        "description": "changeappearancecompleted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ChangeAppearanceCompleted\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "CharacterCreationFinished": {
+        "prefix": "charactercreationfinished",
+        "scope": "lua",
+        "description": "charactercreationfinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterCreationFinished\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "CharacterCreationStarted": {
+        "prefix": "charactercreationstarted",
+        "scope": "lua",
+        "description": "charactercreationstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterCreationStarted\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "CharacterDisarmed": {
+        "prefix": "characterdisarmed",
+        "scope": "lua",
+        "description": "characterdisarmed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterDisarmed\", 3, \"after\", function(slotName, character, item) $1 end)"
+        ]
+    },
+    "CharacterJoinedParty": {
+        "prefix": "characterjoinedparty",
+        "scope": "lua",
+        "description": "characterjoinedparty listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterJoinedParty\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "CharacterLeftParty": {
+        "prefix": "characterleftparty",
+        "scope": "lua",
+        "description": "characterleftparty listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterLeftParty\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "CharacterLoadedInPreset": {
+        "prefix": "characterloadedinpreset",
+        "scope": "lua",
+        "description": "characterloadedinpreset listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterLoadedInPreset\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "CharacterLootedCharacter": {
+        "prefix": "characterlootedcharacter",
+        "scope": "lua",
+        "description": "characterlootedcharacter listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterLootedCharacter\", 2, \"after\", function(lootedCharacter, player) $1 end)"
+        ]
+    },
+    "CharacterMadePlayer": {
+        "prefix": "charactermadeplayer",
+        "scope": "lua",
+        "description": "charactermadeplayer listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterMadePlayer\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "CharacterMoveFailedUseJump": {
+        "prefix": "charactermovefailedusejump",
+        "scope": "lua",
+        "description": "charactermovefailedusejump listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterMoveFailedUseJump\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "CharacterMoveToAndTalkFailed": {
+        "prefix": "charactermovetoandtalkfailed",
+        "scope": "lua",
+        "description": "charactermovetoandtalkfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterMoveToAndTalkFailed\", 4, \"after\", function(character, failureReason, target, moveID) $1 end)"
+        ]
+    },
+    "CharacterMoveToAndTalkRequestDialog": {
+        "prefix": "charactermovetoandtalkrequestdialog",
+        "scope": "lua",
+        "description": "charactermovetoandtalkrequestdialog listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterMoveToAndTalkRequestDialog\", 4, \"after\", function(character, dialog, target, moveID) $1 end)"
+        ]
+    },
+    "CharacterMoveToCancelled": {
+        "prefix": "charactermovetocancelled",
+        "scope": "lua",
+        "description": "charactermovetocancelled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterMoveToCancelled\", 2, \"after\", function(character, moveID) $1 end)"
+        ]
+    },
+    "CharacterOnCrimeSensibleActionNotification": {
+        "prefix": "characteroncrimesensibleactionnotification",
+        "scope": "lua",
+        "description": "characteroncrimesensibleactionnotification listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterOnCrimeSensibleActionNotification\", 10, \"after\", function(criminal2, priortiyName, criminal4, character, crimeID, crimeRegion, criminal1, isPrimary, primaryDialog, criminal3) $1 end)"
+        ]
+    },
+    "CharacterPickpocketFailed": {
+        "prefix": "characterpickpocketfailed",
+        "scope": "lua",
+        "description": "characterpickpocketfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterPickpocketFailed\", 2, \"after\", function(player, npc) $1 end)"
+        ]
+    },
+    "CharacterPickpocketSuccess": {
+        "prefix": "characterpickpocketsuccess",
+        "scope": "lua",
+        "description": "characterpickpocketsuccess listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterPickpocketSuccess\", 6, \"after\", function(itemTemplate, amount, player, goldValue, item, npc) $1 end)"
+        ]
+    },
+    "CharacterReservedUserIDChanged": {
+        "prefix": "characterreserveduseridchanged",
+        "scope": "lua",
+        "description": "characterreserveduseridchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterReservedUserIDChanged\", 3, \"after\", function(newUserID, character, oldUserID) $1 end)"
+        ]
+    },
+    "CharacterSelectedAsBestUnavailableFallbackLead": {
+        "prefix": "characterselectedasbestunavailablefallbacklead",
+        "scope": "lua",
+        "description": "characterselectedasbestunavailablefallbacklead listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterSelectedAsBestUnavailableFallbackLead\", 4, \"after\", function(busyCrimeID, character, unavailableForCrimeID, crimeRegion) $1 end)"
+        ]
+    },
+    "CharacterSelectedClimbOn": {
+        "prefix": "characterselectedclimbon",
+        "scope": "lua",
+        "description": "characterselectedclimbon listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterSelectedClimbOn\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "CharacterSelectedForUser": {
+        "prefix": "characterselectedforuser",
+        "scope": "lua",
+        "description": "characterselectedforuser listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterSelectedForUser\", 2, \"after\", function(character, userID) $1 end)"
+        ]
+    },
+    "CharacterStoleItem": {
+        "prefix": "characterstoleitem",
+        "scope": "lua",
+        "description": "characterstoleitem listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterStoleItem\", 10, \"after\", function(x, amount, y, item, srcContainer, goldValue, oldOwner, character, itemRootTemplate, z) $1 end)"
+        ]
+    },
+    "CharacterTagEvent": {
+        "prefix": "charactertagevent",
+        "scope": "lua",
+        "description": "charactertagevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CharacterTagEvent\", 3, \"after\", function(tag, character, event) $1 end)"
+        ]
+    },
+    "Closed": {
+        "prefix": "closed",
+        "scope": "lua",
+        "description": "closed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Closed\", 1, \"after\", function(item) $1 end)"
+        ]
+    },
+    "CombatEnded": {
+        "prefix": "combatended",
+        "scope": "lua",
+        "description": "combatended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CombatEnded\", 1, \"after\", function(combatGuid) $1 end)"
+        ]
+    },
+    "CombatPaused": {
+        "prefix": "combatpaused",
+        "scope": "lua",
+        "description": "combatpaused listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CombatPaused\", 1, \"after\", function(combatGuid) $1 end)"
+        ]
+    },
+    "CombatResumed": {
+        "prefix": "combatresumed",
+        "scope": "lua",
+        "description": "combatresumed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CombatResumed\", 1, \"after\", function(combatGuid) $1 end)"
+        ]
+    },
+    "CombatRoundStarted": {
+        "prefix": "combatroundstarted",
+        "scope": "lua",
+        "description": "combatroundstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CombatRoundStarted\", 2, \"after\", function(combatGuid, round) $1 end)"
+        ]
+    },
+    "CombatStarted": {
+        "prefix": "combatstarted",
+        "scope": "lua",
+        "description": "combatstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CombatStarted\", 1, \"after\", function(combatGuid) $1 end)"
+        ]
+    },
+    "Combined": {
+        "prefix": "combined",
+        "scope": "lua",
+        "description": "combined listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Combined\", 7, \"after\", function(item4, item2, character, item1, newItem, item3, item5) $1 end)"
+        ]
+    },
+    "CompanionSelectedForUser": {
+        "prefix": "companionselectedforuser",
+        "scope": "lua",
+        "description": "companionselectedforuser listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CompanionSelectedForUser\", 2, \"after\", function(character, userID) $1 end)"
+        ]
+    },
+    "CreditsEnded": {
+        "prefix": "creditsended",
+        "scope": "lua",
+        "description": "creditsended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CreditsEnded\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "CrimeDisabled": {
+        "prefix": "crimedisabled",
+        "scope": "lua",
+        "description": "crimedisabled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CrimeDisabled\", 2, \"after\", function(character, crime) $1 end)"
+        ]
+    },
+    "CrimeEnabled": {
+        "prefix": "crimeenabled",
+        "scope": "lua",
+        "description": "crimeenabled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CrimeEnabled\", 2, \"after\", function(character, crime) $1 end)"
+        ]
+    },
+    "CrimeIsRegistered": {
+        "prefix": "crimeisregistered",
+        "scope": "lua",
+        "description": "crimeisregistered listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CrimeIsRegistered\", 8, \"after\", function(criminal2, criminal4, crimeID, crimeType, criminal1, criminal3, victim, evidence) $1 end)"
+        ]
+    },
+    "CrimeProcessingStarted": {
+        "prefix": "crimeprocessingstarted",
+        "scope": "lua",
+        "description": "crimeprocessingstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CrimeProcessingStarted\", 2, \"after\", function(actedOnImmediately, crimeID) $1 end)"
+        ]
+    },
+    "CriticalHitBy": {
+        "prefix": "criticalhitby",
+        "scope": "lua",
+        "description": "criticalhitby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CriticalHitBy\", 4, \"after\", function(defender, attacker, storyActionID, attackOwner) $1 end)"
+        ]
+    },
+    "CustomBookUIClosed": {
+        "prefix": "custombookuiclosed",
+        "scope": "lua",
+        "description": "custombookuiclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"CustomBookUIClosed\", 2, \"after\", function(character, bookName) $1 end)"
+        ]
+    },
+    "DLCUpdated": {
+        "prefix": "dlcupdated",
+        "scope": "lua",
+        "description": "dlcupdated listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DLCUpdated\", 3, \"after\", function(installed, dlc, userID) $1 end)"
+        ]
+    },
+    "Deactivated": {
+        "prefix": "deactivated",
+        "scope": "lua",
+        "description": "deactivated listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Deactivated\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "DeathSaveStable": {
+        "prefix": "deathsavestable",
+        "scope": "lua",
+        "description": "deathsavestable listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DeathSaveStable\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "DestroyedBy": {
+        "prefix": "destroyedby",
+        "scope": "lua",
+        "description": "destroyedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DestroyedBy\", 4, \"after\", function(destroyerOwner, storyActionID, destroyer, item) $1 end)"
+        ]
+    },
+    "DestroyingBy": {
+        "prefix": "destroyingby",
+        "scope": "lua",
+        "description": "destroyingby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DestroyingBy\", 4, \"after\", function(destroyerOwner, storyActionID, destroyer, item) $1 end)"
+        ]
+    },
+    "DetachedFromPartyGroup": {
+        "prefix": "detachedfrompartygroup",
+        "scope": "lua",
+        "description": "detachedfrompartygroup listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DetachedFromPartyGroup\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "DialogActorJoinFailed": {
+        "prefix": "dialogactorjoinfailed",
+        "scope": "lua",
+        "description": "dialogactorjoinfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogActorJoinFailed\", 3, \"after\", function(actor, dialog, instanceID) $1 end)"
+        ]
+    },
+    "DialogActorJoined": {
+        "prefix": "dialogactorjoined",
+        "scope": "lua",
+        "description": "dialogactorjoined listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogActorJoined\", 4, \"after\", function(actor, speakerIndex, dialog, instanceID) $1 end)"
+        ]
+    },
+    "DialogActorLeft": {
+        "prefix": "dialogactorleft",
+        "scope": "lua",
+        "description": "dialogactorleft listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogActorLeft\", 4, \"after\", function(actor, dialog, instanceID, instanceEnded) $1 end)"
+        ]
+    },
+    "DialogAttackRequested": {
+        "prefix": "dialogattackrequested",
+        "scope": "lua",
+        "description": "dialogattackrequested listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogAttackRequested\", 2, \"after\", function(player, target) $1 end)"
+        ]
+    },
+    "DialogEnded": {
+        "prefix": "dialogended",
+        "scope": "lua",
+        "description": "dialogended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogEnded\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "DialogForceStopping": {
+        "prefix": "dialogforcestopping",
+        "scope": "lua",
+        "description": "dialogforcestopping listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogForceStopping\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "DialogRequestFailed": {
+        "prefix": "dialogrequestfailed",
+        "scope": "lua",
+        "description": "dialogrequestfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogRequestFailed\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "DialogRollResult": {
+        "prefix": "dialogrollresult",
+        "scope": "lua",
+        "description": "dialogrollresult listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogRollResult\", 5, \"after\", function(criticality, character, dialog, isDetectThoughts, success) $1 end)"
+        ]
+    },
+    "DialogStartRequested": {
+        "prefix": "dialogstartrequested",
+        "scope": "lua",
+        "description": "dialogstartrequested listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogStartRequested\", 2, \"after\", function(player, target) $1 end)"
+        ]
+    },
+    "DialogStarted": {
+        "prefix": "dialogstarted",
+        "scope": "lua",
+        "description": "dialogstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogStarted\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "DialogueCapabilityChanged": {
+        "prefix": "dialoguecapabilitychanged",
+        "scope": "lua",
+        "description": "dialoguecapabilitychanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DialogueCapabilityChanged\", 2, \"after\", function(character, isEnabled) $1 end)"
+        ]
+    },
+    "Died": {
+        "prefix": "died",
+        "scope": "lua",
+        "description": "died listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Died\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "DifficultyChanged": {
+        "prefix": "difficultychanged",
+        "scope": "lua",
+        "description": "difficultychanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DifficultyChanged\", 1, \"after\", function(difficultyLevel) $1 end)"
+        ]
+    },
+    "DisappearOutOfSightToCancelled": {
+        "prefix": "disappearoutofsighttocancelled",
+        "scope": "lua",
+        "description": "disappearoutofsighttocancelled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DisappearOutOfSightToCancelled\", 2, \"after\", function(character, moveID) $1 end)"
+        ]
+    },
+    "DoorTemplateClosing": {
+        "prefix": "doortemplateclosing",
+        "scope": "lua",
+        "description": "doortemplateclosing listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DoorTemplateClosing\", 3, \"after\", function(itemTemplate, item2, character) $1 end)"
+        ]
+    },
+    "DownedChanged": {
+        "prefix": "downedchanged",
+        "scope": "lua",
+        "description": "downedchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DownedChanged\", 2, \"after\", function(character, isDowned) $1 end)"
+        ]
+    },
+    "DroppedBy": {
+        "prefix": "droppedby",
+        "scope": "lua",
+        "description": "droppedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DroppedBy\", 2, \"after\", function(object, mover) $1 end)"
+        ]
+    },
+    "DualEntityEvent": {
+        "prefix": "dualentityevent",
+        "scope": "lua",
+        "description": "dualentityevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"DualEntityEvent\", 3, \"after\", function(object1, object2, event) $1 end)"
+        ]
+    },
+    "Dying": {
+        "prefix": "dying",
+        "scope": "lua",
+        "description": "dying listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Dying\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "EndTheDayRequested": {
+        "prefix": "endthedayrequested",
+        "scope": "lua",
+        "description": "endthedayrequested listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EndTheDayRequested\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "EnterCombatFailed": {
+        "prefix": "entercombatfailed",
+        "scope": "lua",
+        "description": "entercombatfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EnterCombatFailed\", 2, \"after\", function(opponentRight, opponentLeft) $1 end)"
+        ]
+    },
+    "EnteredChasm": {
+        "prefix": "enteredchasm",
+        "scope": "lua",
+        "description": "enteredchasm listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EnteredChasm\", 6, \"after\", function(fallbackPosX, object, fallbackPosY, cause, chasm, fallbackPosZ) $1 end)"
+        ]
+    },
+    "EnteredCombat": {
+        "prefix": "enteredcombat",
+        "scope": "lua",
+        "description": "enteredcombat listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EnteredCombat\", 2, \"after\", function(object, combatGuid) $1 end)"
+        ]
+    },
+    "EnteredForceTurnBased": {
+        "prefix": "enteredforceturnbased",
+        "scope": "lua",
+        "description": "enteredforceturnbased listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EnteredForceTurnBased\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "EnteredLevel": {
+        "prefix": "enteredlevel",
+        "scope": "lua",
+        "description": "enteredlevel listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EnteredLevel\", 3, \"after\", function(object, objectRootTemplate, level) $1 end)"
+        ]
+    },
+    "EnteredSharedForceTurnBased": {
+        "prefix": "enteredsharedforceturnbased",
+        "scope": "lua",
+        "description": "enteredsharedforceturnbased listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EnteredSharedForceTurnBased\", 2, \"after\", function(object, zoneId) $1 end)"
+        ]
+    },
+    "EnteredTrigger": {
+        "prefix": "enteredtrigger",
+        "scope": "lua",
+        "description": "enteredtrigger listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EnteredTrigger\", 2, \"after\", function(character, trigger) $1 end)"
+        ]
+    },
+    "EntityEvent": {
+        "prefix": "entityevent",
+        "scope": "lua",
+        "description": "entityevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EntityEvent\", 2, \"after\", function(object, event) $1 end)"
+        ]
+    },
+    "EquipFailed": {
+        "prefix": "equipfailed",
+        "scope": "lua",
+        "description": "equipfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EquipFailed\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "Equipped": {
+        "prefix": "equipped",
+        "scope": "lua",
+        "description": "equipped listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Equipped\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "EscortGroupLeaderChanged": {
+        "prefix": "escortgroupleaderchanged",
+        "scope": "lua",
+        "description": "escortgroupleaderchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"EscortGroupLeaderChanged\", 3, \"after\", function(group, oldLeader, newLeader) $1 end)"
+        ]
+    },
+    "FailedToLoadItemInPreset": {
+        "prefix": "failedtoloaditeminpreset",
+        "scope": "lua",
+        "description": "failedtoloaditeminpreset listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"FailedToLoadItemInPreset\", 4, \"after\", function(character, newItem, level, originalItem) $1 end)"
+        ]
+    },
+    "Falling": {
+        "prefix": "falling",
+        "scope": "lua",
+        "description": "falling listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Falling\", 2, \"after\", function(entity, cause) $1 end)"
+        ]
+    },
+    "Fell": {
+        "prefix": "fell",
+        "scope": "lua",
+        "description": "fell listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Fell\", 2, \"after\", function(entity, cause) $1 end)"
+        ]
+    },
+    "FlagCleared": {
+        "prefix": "flagcleared",
+        "scope": "lua",
+        "description": "flagcleared listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"FlagCleared\", 3, \"after\", function(flag, speaker, dialogInstance) $1 end)"
+        ]
+    },
+    "FlagLoadedInPresetEvent": {
+        "prefix": "flagloadedinpresetevent",
+        "scope": "lua",
+        "description": "flagloadedinpresetevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"FlagLoadedInPresetEvent\", 2, \"after\", function(object, flag) $1 end)"
+        ]
+    },
+    "FlagSet": {
+        "prefix": "flagset",
+        "scope": "lua",
+        "description": "flagset listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"FlagSet\", 3, \"after\", function(flag, speaker, dialogInstance) $1 end)"
+        ]
+    },
+    "FleeFromCombat": {
+        "prefix": "fleefromcombat",
+        "scope": "lua",
+        "description": "fleefromcombat listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"FleeFromCombat\", 2, \"after\", function(participant, combatGuid) $1 end)"
+        ]
+    },
+    "FollowerCantUseItem": {
+        "prefix": "followercantuseitem",
+        "scope": "lua",
+        "description": "followercantuseitem listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"FollowerCantUseItem\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "ForceDismissCompanion": {
+        "prefix": "forcedismisscompanion",
+        "scope": "lua",
+        "description": "forcedismisscompanion listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ForceDismissCompanion\", 1, \"after\", function(companion) $1 end)"
+        ]
+    },
+    "ForceMoveEnded": {
+        "prefix": "forcemoveended",
+        "scope": "lua",
+        "description": "forcemoveended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ForceMoveEnded\", 3, \"after\", function(storyActionID, target, source) $1 end)"
+        ]
+    },
+    "ForceMoveStarted": {
+        "prefix": "forcemovestarted",
+        "scope": "lua",
+        "description": "forcemovestarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ForceMoveStarted\", 3, \"after\", function(storyActionID, target, source) $1 end)"
+        ]
+    },
+    "GainedControl": {
+        "prefix": "gainedcontrol",
+        "scope": "lua",
+        "description": "gainedcontrol listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"GainedControl\", 1, \"after\", function(target) $1 end)"
+        ]
+    },
+    "GameBookInterfaceClosed": {
+        "prefix": "gamebookinterfaceclosed",
+        "scope": "lua",
+        "description": "gamebookinterfaceclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"GameBookInterfaceClosed\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "GameModeStarted": {
+        "prefix": "gamemodestarted",
+        "scope": "lua",
+        "description": "gamemodestarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"GameModeStarted\", 3, \"after\", function(isEditorMode, gameMode, isStoryReload) $1 end)"
+        ]
+    },
+    "GameOption": {
+        "prefix": "gameoption",
+        "scope": "lua",
+        "description": "gameoption listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"GameOption\", 2, \"after\", function(key, value) $1 end)"
+        ]
+    },
+    "GoldChanged": {
+        "prefix": "goldchanged",
+        "scope": "lua",
+        "description": "goldchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"GoldChanged\", 2, \"after\", function(changeAmount, inventoryHolder) $1 end)"
+        ]
+    },
+    "GotUp": {
+        "prefix": "gotup",
+        "scope": "lua",
+        "description": "gotup listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"GotUp\", 1, \"after\", function(target) $1 end)"
+        ]
+    },
+    "HappyWithDeal": {
+        "prefix": "happywithdeal",
+        "scope": "lua",
+        "description": "happywithdeal listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"HappyWithDeal\", 4, \"after\", function(trader, character, characterValue, traderValue) $1 end)"
+        ]
+    },
+    "HenchmanAborted": {
+        "prefix": "henchmanaborted",
+        "scope": "lua",
+        "description": "henchmanaborted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"HenchmanAborted\", 1, \"after\", function(player) $1 end)"
+        ]
+    },
+    "HenchmanSelected": {
+        "prefix": "henchmanselected",
+        "scope": "lua",
+        "description": "henchmanselected listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"HenchmanSelected\", 2, \"after\", function(player, hireling) $1 end)"
+        ]
+    },
+    "HitProxy": {
+        "prefix": "hitproxy",
+        "scope": "lua",
+        "description": "hitproxy listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"HitProxy\", 5, \"after\", function(proxy, target, attackerOwner, storyActionID, attacker2) $1 end)"
+        ]
+    },
+    "HitpointsChanged": {
+        "prefix": "hitpointschanged",
+        "scope": "lua",
+        "description": "hitpointschanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"HitpointsChanged\", 2, \"after\", function(entity, percentage) $1 end)"
+        ]
+    },
+    "InstanceDialogChanged": {
+        "prefix": "instancedialogchanged",
+        "scope": "lua",
+        "description": "instancedialogchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"InstanceDialogChanged\", 4, \"after\", function(oldDialog, oldDialogStopping, instanceID, newDialog) $1 end)"
+        ]
+    },
+    "InteractionCapabilityChanged": {
+        "prefix": "interactioncapabilitychanged",
+        "scope": "lua",
+        "description": "interactioncapabilitychanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"InteractionCapabilityChanged\", 2, \"after\", function(character, isEnabled) $1 end)"
+        ]
+    },
+    "InteractionFallback": {
+        "prefix": "interactionfallback",
+        "scope": "lua",
+        "description": "interactionfallback listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"InteractionFallback\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "InventoryBoundChanged": {
+        "prefix": "inventoryboundchanged",
+        "scope": "lua",
+        "description": "inventoryboundchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"InventoryBoundChanged\", 2, \"after\", function(isBoundToInventory, item) $1 end)"
+        ]
+    },
+    "InventorySharingChanged": {
+        "prefix": "inventorysharingchanged",
+        "scope": "lua",
+        "description": "inventorysharingchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"InventorySharingChanged\", 2, \"after\", function(character, sharingEnabled) $1 end)"
+        ]
+    },
+    "ItemEnteredTrigger": {
+        "prefix": "itementeredtrigger",
+        "scope": "lua",
+        "description": "itementeredtrigger listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ItemEnteredTrigger\", 3, \"after\", function(mover, trigger, item) $1 end)"
+        ]
+    },
+    "ItemLeftTrigger": {
+        "prefix": "itemlefttrigger",
+        "scope": "lua",
+        "description": "itemlefttrigger listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ItemLeftTrigger\", 3, \"after\", function(mover, trigger, item) $1 end)"
+        ]
+    },
+    "ItemTeleported": {
+        "prefix": "itemteleported",
+        "scope": "lua",
+        "description": "itemteleported listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ItemTeleported\", 7, \"after\", function(target, newX, oldY, oldX, newY, oldZ, newZ) $1 end)"
+        ]
+    },
+    "KilledBy": {
+        "prefix": "killedby",
+        "scope": "lua",
+        "description": "killedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"KilledBy\", 4, \"after\", function(defender, attacker, storyActionID, attackOwner) $1 end)"
+        ]
+    },
+    "LearnedSpell": {
+        "prefix": "learnedspell",
+        "scope": "lua",
+        "description": "learnedspell listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LearnedSpell\", 2, \"after\", function(character, spell) $1 end)"
+        ]
+    },
+    "LeftCombat": {
+        "prefix": "leftcombat",
+        "scope": "lua",
+        "description": "leftcombat listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LeftCombat\", 2, \"after\", function(object, combatGuid) $1 end)"
+        ]
+    },
+    "LeftForceTurnBased": {
+        "prefix": "leftforceturnbased",
+        "scope": "lua",
+        "description": "leftforceturnbased listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LeftForceTurnBased\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "LeftLevel": {
+        "prefix": "leftlevel",
+        "scope": "lua",
+        "description": "leftlevel listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LeftLevel\", 2, \"after\", function(object, level) $1 end)"
+        ]
+    },
+    "LeftTrigger": {
+        "prefix": "lefttrigger",
+        "scope": "lua",
+        "description": "lefttrigger listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LeftTrigger\", 2, \"after\", function(character, trigger) $1 end)"
+        ]
+    },
+    "LevelGameplayStarted": {
+        "prefix": "levelgameplaystarted",
+        "scope": "lua",
+        "description": "levelgameplaystarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LevelGameplayStarted\", 2, \"after\", function(isEditorMode, levelName) $1 end)"
+        ]
+    },
+    "LevelLoaded": {
+        "prefix": "levelloaded",
+        "scope": "lua",
+        "description": "levelloaded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LevelLoaded\", 1, \"after\", function(newLevel) $1 end)"
+        ]
+    },
+    "LevelTemplateLoaded": {
+        "prefix": "leveltemplateloaded",
+        "scope": "lua",
+        "description": "leveltemplateloaded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LevelTemplateLoaded\", 1, \"after\", function(levelTemplate) $1 end)"
+        ]
+    },
+    "LevelUnloading": {
+        "prefix": "levelunloading",
+        "scope": "lua",
+        "description": "levelunloading listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LevelUnloading\", 1, \"after\", function(level) $1 end)"
+        ]
+    },
+    "LeveledUp": {
+        "prefix": "leveledup",
+        "scope": "lua",
+        "description": "leveledup listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LeveledUp\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "LongRestCancelled": {
+        "prefix": "longrestcancelled",
+        "scope": "lua",
+        "description": "longrestcancelled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LongRestCancelled\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "LongRestFinished": {
+        "prefix": "longrestfinished",
+        "scope": "lua",
+        "description": "longrestfinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LongRestFinished\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "LongRestStartFailed": {
+        "prefix": "longreststartfailed",
+        "scope": "lua",
+        "description": "longreststartfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LongRestStartFailed\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "LongRestStarted": {
+        "prefix": "longreststarted",
+        "scope": "lua",
+        "description": "longreststarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LongRestStarted\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "LostSightOf": {
+        "prefix": "lostsightof",
+        "scope": "lua",
+        "description": "lostsightof listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"LostSightOf\", 2, \"after\", function(character, targetCharacter) $1 end)"
+        ]
+    },
+    "MainPerformerStarted": {
+        "prefix": "mainperformerstarted",
+        "scope": "lua",
+        "description": "mainperformerstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MainPerformerStarted\", 2, \"after\", function(character, event) $1 end)"
+        ]
+    },
+    "MessageBoxChoiceClosed": {
+        "prefix": "messageboxchoiceclosed",
+        "scope": "lua",
+        "description": "messageboxchoiceclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MessageBoxChoiceClosed\", 3, \"after\", function(character, resultChoice, message) $1 end)"
+        ]
+    },
+    "MessageBoxClosed": {
+        "prefix": "messageboxclosed",
+        "scope": "lua",
+        "description": "messageboxclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MessageBoxClosed\", 2, \"after\", function(character, message) $1 end)"
+        ]
+    },
+    "MessageBoxYesNoClosed": {
+        "prefix": "messageboxyesnoclosed",
+        "scope": "lua",
+        "description": "messageboxyesnoclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MessageBoxYesNoClosed\", 3, \"after\", function(result, character, message) $1 end)"
+        ]
+    },
+    "MissedBy": {
+        "prefix": "missedby",
+        "scope": "lua",
+        "description": "missedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MissedBy\", 4, \"after\", function(defender, attacker, storyActionID, attackOwner) $1 end)"
+        ]
+    },
+    "ModuleLoadedinSavegame": {
+        "prefix": "moduleloadedinsavegame",
+        "scope": "lua",
+        "description": "moduleloadedinsavegame listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ModuleLoadedinSavegame\", 5, \"after\", function(major, build, name, minor, revision) $1 end)"
+        ]
+    },
+    "MoveCapabilityChanged": {
+        "prefix": "movecapabilitychanged",
+        "scope": "lua",
+        "description": "movecapabilitychanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MoveCapabilityChanged\", 2, \"after\", function(character, isEnabled) $1 end)"
+        ]
+    },
+    "Moved": {
+        "prefix": "moved",
+        "scope": "lua",
+        "description": "moved listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Moved\", 1, \"after\", function(item) $1 end)"
+        ]
+    },
+    "MovedBy": {
+        "prefix": "movedby",
+        "scope": "lua",
+        "description": "movedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MovedBy\", 2, \"after\", function(character, movedEntity) $1 end)"
+        ]
+    },
+    "MovedFromTo": {
+        "prefix": "movedfromto",
+        "scope": "lua",
+        "description": "movedfromto listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MovedFromTo\", 4, \"after\", function(movedObject, isTrade, toObject, fromObject) $1 end)"
+        ]
+    },
+    "MovieFinished": {
+        "prefix": "moviefinished",
+        "scope": "lua",
+        "description": "moviefinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MovieFinished\", 1, \"after\", function(movieName) $1 end)"
+        ]
+    },
+    "MoviePlaylistFinished": {
+        "prefix": "movieplaylistfinished",
+        "scope": "lua",
+        "description": "movieplaylistfinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"MoviePlaylistFinished\", 1, \"after\", function(movieName) $1 end)"
+        ]
+    },
+    "NestedDialogPlayed": {
+        "prefix": "nesteddialogplayed",
+        "scope": "lua",
+        "description": "nesteddialogplayed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"NestedDialogPlayed\", 2, \"after\", function(dialog, instanceID) $1 end)"
+        ]
+    },
+    "ObjectAvailableLevelChanged": {
+        "prefix": "objectavailablelevelchanged",
+        "scope": "lua",
+        "description": "objectavailablelevelchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ObjectAvailableLevelChanged\", 3, \"after\", function(character, oldLevel, newLevel) $1 end)"
+        ]
+    },
+    "ObjectTimerFinished": {
+        "prefix": "objecttimerfinished",
+        "scope": "lua",
+        "description": "objecttimerfinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ObjectTimerFinished\", 2, \"after\", function(object, timer) $1 end)"
+        ]
+    },
+    "ObjectTransformed": {
+        "prefix": "objecttransformed",
+        "scope": "lua",
+        "description": "objecttransformed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ObjectTransformed\", 2, \"after\", function(object, toTemplate) $1 end)"
+        ]
+    },
+    "ObscuredStateChanged": {
+        "prefix": "obscuredstatechanged",
+        "scope": "lua",
+        "description": "obscuredstatechanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ObscuredStateChanged\", 2, \"after\", function(object, obscuredState) $1 end)"
+        ]
+    },
+    "OnCrimeConfrontationDone": {
+        "prefix": "oncrimeconfrontationdone",
+        "scope": "lua",
+        "description": "oncrimeconfrontationdone listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnCrimeConfrontationDone\", 7, \"after\", function(wasLead, crimeID, investigator, criminal1, criminal2, criminal3, criminal4) $1 end)"
+        ]
+    },
+    "OnCrimeInvestigatorSwitchedState": {
+        "prefix": "oncrimeinvestigatorswitchedstate",
+        "scope": "lua",
+        "description": "oncrimeinvestigatorswitchedstate listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnCrimeInvestigatorSwitchedState\", 4, \"after\", function(toState, crimeID, investigator, fromState) $1 end)"
+        ]
+    },
+    "OnCrimeMergedWith": {
+        "prefix": "oncrimemergedwith",
+        "scope": "lua",
+        "description": "oncrimemergedwith listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnCrimeMergedWith\", 2, \"after\", function(oldCrimeID, newCrimeID) $1 end)"
+        ]
+    },
+    "OnCrimeRemoved": {
+        "prefix": "oncrimeremoved",
+        "scope": "lua",
+        "description": "oncrimeremoved listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnCrimeRemoved\", 6, \"after\", function(crimeID, criminal1, criminal2, criminal3, criminal4, victim) $1 end)"
+        ]
+    },
+    "OnCrimeResetInterrogationForCriminal": {
+        "prefix": "oncrimeresetinterrogationforcriminal",
+        "scope": "lua",
+        "description": "oncrimeresetinterrogationforcriminal listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnCrimeResetInterrogationForCriminal\", 2, \"after\", function(criminal, crimeID) $1 end)"
+        ]
+    },
+    "OnCrimeResolved": {
+        "prefix": "oncrimeresolved",
+        "scope": "lua",
+        "description": "oncrimeresolved listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnCrimeResolved\", 6, \"after\", function(crimeID, criminal1, criminal2, criminal3, criminal4, victim) $1 end)"
+        ]
+    },
+    "OnCriminalMergedWithCrime": {
+        "prefix": "oncriminalmergedwithcrime",
+        "scope": "lua",
+        "description": "oncriminalmergedwithcrime listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnCriminalMergedWithCrime\", 2, \"after\", function(criminal, crimeID) $1 end)"
+        ]
+    },
+    "OnShutdown": {
+        "prefix": "onshutdown",
+        "scope": "lua",
+        "description": "onshutdown listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnShutdown\", 1, \"after\", function(isEditorMode) $1 end)"
+        ]
+    },
+    "OnStartCarrying": {
+        "prefix": "onstartcarrying",
+        "scope": "lua",
+        "description": "onstartcarrying listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnStartCarrying\", 7, \"after\", function(pickupPosZ, carriedObject, pickupPosX, carriedObjectTemplate, storyActionID, carrier, pickupPosY) $1 end)"
+        ]
+    },
+    "OnStoryOverride": {
+        "prefix": "onstoryoverride",
+        "scope": "lua",
+        "description": "onstoryoverride listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnStoryOverride\", 1, \"after\", function(target) $1 end)"
+        ]
+    },
+    "OnThrown": {
+        "prefix": "onthrown",
+        "scope": "lua",
+        "description": "onthrown listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"OnThrown\", 7, \"after\", function(thrower, thrownObjectTemplate, throwPosX, throwPosZ, throwPosY, storyActionID, thrownObject) $1 end)"
+        ]
+    },
+    "Opened": {
+        "prefix": "opened",
+        "scope": "lua",
+        "description": "opened listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Opened\", 1, \"after\", function(item) $1 end)"
+        ]
+    },
+    "PartyPresetLoaded": {
+        "prefix": "partypresetloaded",
+        "scope": "lua",
+        "description": "partypresetloaded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PartyPresetLoaded\", 2, \"after\", function(levelName, partyPreset) $1 end)"
+        ]
+    },
+    "PickupFailed": {
+        "prefix": "pickupfailed",
+        "scope": "lua",
+        "description": "pickupfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PickupFailed\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "PingRequested": {
+        "prefix": "pingrequested",
+        "scope": "lua",
+        "description": "pingrequested listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PingRequested\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "PlatformDestroyed": {
+        "prefix": "platformdestroyed",
+        "scope": "lua",
+        "description": "platformdestroyed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PlatformDestroyed\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "PlatformMovementCanceled": {
+        "prefix": "platformmovementcanceled",
+        "scope": "lua",
+        "description": "platformmovementcanceled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PlatformMovementCanceled\", 2, \"after\", function(object, eventId) $1 end)"
+        ]
+    },
+    "PlatformMovementFinished": {
+        "prefix": "platformmovementfinished",
+        "scope": "lua",
+        "description": "platformmovementfinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PlatformMovementFinished\", 2, \"after\", function(object, eventId) $1 end)"
+        ]
+    },
+    "PreMovedBy": {
+        "prefix": "premovedby",
+        "scope": "lua",
+        "description": "premovedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PreMovedBy\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "PuzzleUIClosed": {
+        "prefix": "puzzleuiclosed",
+        "scope": "lua",
+        "description": "puzzleuiclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PuzzleUIClosed\", 3, \"after\", function(uIInstance, character, type) $1 end)"
+        ]
+    },
+    "PuzzleUIUsed": {
+        "prefix": "puzzleuiused",
+        "scope": "lua",
+        "description": "puzzleuiused listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"PuzzleUIUsed\", 5, \"after\", function(type, character, elementId, uIInstance, command) $1 end)"
+        ]
+    },
+    "QuestAccepted": {
+        "prefix": "questaccepted",
+        "scope": "lua",
+        "description": "questaccepted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"QuestAccepted\", 2, \"after\", function(character, questID) $1 end)"
+        ]
+    },
+    "QuestClosed": {
+        "prefix": "questclosed",
+        "scope": "lua",
+        "description": "questclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"QuestClosed\", 1, \"after\", function(questID) $1 end)"
+        ]
+    },
+    "QuestUpdateUnlocked": {
+        "prefix": "questupdateunlocked",
+        "scope": "lua",
+        "description": "questupdateunlocked listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"QuestUpdateUnlocked\", 3, \"after\", function(character, stateID, topLevelQuestID) $1 end)"
+        ]
+    },
+    "QueuePurged": {
+        "prefix": "queuepurged",
+        "scope": "lua",
+        "description": "queuepurged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"QueuePurged\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "RandomCastProcessed": {
+        "prefix": "randomcastprocessed",
+        "scope": "lua",
+        "description": "randomcastprocessed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RandomCastProcessed\", 5, \"after\", function(spellID, storyActionID, caster, randomCastDC, rollResult) $1 end)"
+        ]
+    },
+    "ReactionInterruptActionNeeded": {
+        "prefix": "reactioninterruptactionneeded",
+        "scope": "lua",
+        "description": "reactioninterruptactionneeded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ReactionInterruptActionNeeded\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "ReactionInterruptAdded": {
+        "prefix": "reactioninterruptadded",
+        "scope": "lua",
+        "description": "reactioninterruptadded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ReactionInterruptAdded\", 2, \"after\", function(character, reactionInterruptName) $1 end)"
+        ]
+    },
+    "ReactionInterruptUsed": {
+        "prefix": "reactioninterruptused",
+        "scope": "lua",
+        "description": "reactioninterruptused listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ReactionInterruptUsed\", 3, \"after\", function(object, reactionInterruptPrototypeId, isAutoTriggered) $1 end)"
+        ]
+    },
+    "ReadyCheckFailed": {
+        "prefix": "readycheckfailed",
+        "scope": "lua",
+        "description": "readycheckfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ReadyCheckFailed\", 1, \"after\", function(id) $1 end)"
+        ]
+    },
+    "ReadyCheckPassed": {
+        "prefix": "readycheckpassed",
+        "scope": "lua",
+        "description": "readycheckpassed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ReadyCheckPassed\", 1, \"after\", function(id) $1 end)"
+        ]
+    },
+    "RelationChanged": {
+        "prefix": "relationchanged",
+        "scope": "lua",
+        "description": "relationchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RelationChanged\", 4, \"after\", function(targetFaction, sourceFaction, permanent, newRelation) $1 end)"
+        ]
+    },
+    "RemovedFrom": {
+        "prefix": "removedfrom",
+        "scope": "lua",
+        "description": "removedfrom listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RemovedFrom\", 2, \"after\", function(object, inventoryHolder) $1 end)"
+        ]
+    },
+    "ReposeAdded": {
+        "prefix": "reposeadded",
+        "scope": "lua",
+        "description": "reposeadded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ReposeAdded\", 2, \"after\", function(entity, onEntity) $1 end)"
+        ]
+    },
+    "ReposeRemoved": {
+        "prefix": "reposeremoved",
+        "scope": "lua",
+        "description": "reposeremoved listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ReposeRemoved\", 2, \"after\", function(entity, onEntity) $1 end)"
+        ]
+    },
+    "RequestCanCombine": {
+        "prefix": "requestcancombine",
+        "scope": "lua",
+        "description": "requestcancombine listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestCanCombine\", 7, \"after\", function(item4, item2, character, item1, item3, item5, requestID) $1 end)"
+        ]
+    },
+    "RequestCanDisarmTrap": {
+        "prefix": "requestcandisarmtrap",
+        "scope": "lua",
+        "description": "requestcandisarmtrap listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestCanDisarmTrap\", 3, \"after\", function(character, requestID, item) $1 end)"
+        ]
+    },
+    "RequestCanLockpick": {
+        "prefix": "requestcanlockpick",
+        "scope": "lua",
+        "description": "requestcanlockpick listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestCanLockpick\", 3, \"after\", function(character, requestID, item) $1 end)"
+        ]
+    },
+    "RequestCanLoot": {
+        "prefix": "requestcanloot",
+        "scope": "lua",
+        "description": "requestcanloot listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestCanLoot\", 2, \"after\", function(target, looter) $1 end)"
+        ]
+    },
+    "RequestCanMove": {
+        "prefix": "requestcanmove",
+        "scope": "lua",
+        "description": "requestcanmove listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestCanMove\", 3, \"after\", function(character, requestID, item) $1 end)"
+        ]
+    },
+    "RequestCanPickup": {
+        "prefix": "requestcanpickup",
+        "scope": "lua",
+        "description": "requestcanpickup listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestCanPickup\", 3, \"after\", function(object, character, requestID) $1 end)"
+        ]
+    },
+    "RequestCanUse": {
+        "prefix": "requestcanuse",
+        "scope": "lua",
+        "description": "requestcanuse listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestCanUse\", 3, \"after\", function(character, requestID, item) $1 end)"
+        ]
+    },
+    "RequestEndTheDayFail": {
+        "prefix": "requestendthedayfail",
+        "scope": "lua",
+        "description": "requestendthedayfail listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestEndTheDayFail\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "RequestEndTheDaySuccess": {
+        "prefix": "requestendthedaysuccess",
+        "scope": "lua",
+        "description": "requestendthedaysuccess listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestEndTheDaySuccess\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "RequestGatherAtCampFail": {
+        "prefix": "requestgatheratcampfail",
+        "scope": "lua",
+        "description": "requestgatheratcampfail listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestGatherAtCampFail\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "RequestGatherAtCampSuccess": {
+        "prefix": "requestgatheratcampsuccess",
+        "scope": "lua",
+        "description": "requestgatheratcampsuccess listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestGatherAtCampSuccess\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "RequestPickpocket": {
+        "prefix": "requestpickpocket",
+        "scope": "lua",
+        "description": "requestpickpocket listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestPickpocket\", 2, \"after\", function(player, npc) $1 end)"
+        ]
+    },
+    "RequestTrade": {
+        "prefix": "requesttrade",
+        "scope": "lua",
+        "description": "requesttrade listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RequestTrade\", 4, \"after\", function(trader, character, itemsTagFilter, tradeMode) $1 end)"
+        ]
+    },
+    "RespecCancelled": {
+        "prefix": "respeccancelled",
+        "scope": "lua",
+        "description": "respeccancelled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RespecCancelled\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "RespecCompleted": {
+        "prefix": "respeccompleted",
+        "scope": "lua",
+        "description": "respeccompleted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RespecCompleted\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "Resurrected": {
+        "prefix": "resurrected",
+        "scope": "lua",
+        "description": "resurrected listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Resurrected\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "RollResult": {
+        "prefix": "rollresult",
+        "scope": "lua",
+        "description": "rollresult listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RollResult\", 6, \"after\", function(rollSubject, criticality, roller, resultType, isActiveRoll, eventName) $1 end)"
+        ]
+    },
+    "RulesetModifierChangedBool": {
+        "prefix": "rulesetmodifierchangedbool",
+        "scope": "lua",
+        "description": "rulesetmodifierchangedbool listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RulesetModifierChangedBool\", 3, \"after\", function(old, new, modifier) $1 end)"
+        ]
+    },
+    "RulesetModifierChangedFloat": {
+        "prefix": "rulesetmodifierchangedfloat",
+        "scope": "lua",
+        "description": "rulesetmodifierchangedfloat listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RulesetModifierChangedFloat\", 3, \"after\", function(old, new, modifier) $1 end)"
+        ]
+    },
+    "RulesetModifierChangedInt": {
+        "prefix": "rulesetmodifierchangedint",
+        "scope": "lua",
+        "description": "rulesetmodifierchangedint listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RulesetModifierChangedInt\", 3, \"after\", function(old, new, modifier) $1 end)"
+        ]
+    },
+    "RulesetModifierChangedString": {
+        "prefix": "rulesetmodifierchangedstring",
+        "scope": "lua",
+        "description": "rulesetmodifierchangedstring listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"RulesetModifierChangedString\", 3, \"after\", function(old, new, modifier) $1 end)"
+        ]
+    },
+    "SafeRomanceOptionChanged": {
+        "prefix": "saferomanceoptionchanged",
+        "scope": "lua",
+        "description": "saferomanceoptionchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SafeRomanceOptionChanged\", 2, \"after\", function(userID, state) $1 end)"
+        ]
+    },
+    "SavegameLoadStarted": {
+        "prefix": "savegameloadstarted",
+        "scope": "lua",
+        "description": "savegameloadstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SavegameLoadStarted\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "SavegameLoaded": {
+        "prefix": "savegameloaded",
+        "scope": "lua",
+        "description": "savegameloaded listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SavegameLoaded\", 0, \"after\", function() $1 end)"
+        ]
+    },
+    "Saw": {
+        "prefix": "saw",
+        "scope": "lua",
+        "description": "saw listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Saw\", 3, \"after\", function(character, targetCharacter, targetWasSneaking) $1 end)"
+        ]
+    },
+    "ScatteredAt": {
+        "prefix": "scatteredat",
+        "scope": "lua",
+        "description": "scatteredat listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ScatteredAt\", 4, \"after\", function(x, z, y, item) $1 end)"
+        ]
+    },
+    "ScreenFadeCleared": {
+        "prefix": "screenfadecleared",
+        "scope": "lua",
+        "description": "screenfadecleared listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ScreenFadeCleared\", 2, \"after\", function(fadeID, userID) $1 end)"
+        ]
+    },
+    "ScreenFadeDone": {
+        "prefix": "screenfadedone",
+        "scope": "lua",
+        "description": "screenfadedone listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ScreenFadeDone\", 2, \"after\", function(fadeID, userID) $1 end)"
+        ]
+    },
+    "ShapeshiftChanged": {
+        "prefix": "shapeshiftchanged",
+        "scope": "lua",
+        "description": "shapeshiftchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ShapeshiftChanged\", 4, \"after\", function(race, character, shapeshiftStatus, gender) $1 end)"
+        ]
+    },
+    "ShapeshiftedHitpointsChanged": {
+        "prefix": "shapeshiftedhitpointschanged",
+        "scope": "lua",
+        "description": "shapeshiftedhitpointschanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ShapeshiftedHitpointsChanged\", 2, \"after\", function(entity, percentage) $1 end)"
+        ]
+    },
+    "ShareInitiative": {
+        "prefix": "shareinitiative",
+        "scope": "lua",
+        "description": "shareinitiative listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ShareInitiative\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "ShortRestCapable": {
+        "prefix": "shortrestcapable",
+        "scope": "lua",
+        "description": "shortrestcapable listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ShortRestCapable\", 2, \"after\", function(character, capable) $1 end)"
+        ]
+    },
+    "ShortRestProcessing": {
+        "prefix": "shortrestprocessing",
+        "scope": "lua",
+        "description": "shortrestprocessing listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ShortRestProcessing\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "ShortRested": {
+        "prefix": "shortrested",
+        "scope": "lua",
+        "description": "shortrested listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"ShortRested\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "StackedWith": {
+        "prefix": "stackedwith",
+        "scope": "lua",
+        "description": "stackedwith listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StackedWith\", 2, \"after\", function(stackedWithItem, item) $1 end)"
+        ]
+    },
+    "StartAttack": {
+        "prefix": "startattack",
+        "scope": "lua",
+        "description": "startattack listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StartAttack\", 4, \"after\", function(defender, attacker, storyActionID, attackOwner) $1 end)"
+        ]
+    },
+    "StartAttackPosition": {
+        "prefix": "startattackposition",
+        "scope": "lua",
+        "description": "startattackposition listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StartAttackPosition\", 6, \"after\", function(x, z, y, attackOwner, storyActionID, attacker) $1 end)"
+        ]
+    },
+    "StartedDisarmingTrap": {
+        "prefix": "starteddisarmingtrap",
+        "scope": "lua",
+        "description": "starteddisarmingtrap listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StartedDisarmingTrap\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "StartedFleeing": {
+        "prefix": "startedfleeing",
+        "scope": "lua",
+        "description": "startedfleeing listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StartedFleeing\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "StartedLockpicking": {
+        "prefix": "startedlockpicking",
+        "scope": "lua",
+        "description": "startedlockpicking listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StartedLockpicking\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "StartedPreviewingSpell": {
+        "prefix": "startedpreviewingspell",
+        "scope": "lua",
+        "description": "startedpreviewingspell listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StartedPreviewingSpell\", 4, \"after\", function(hasMultipleLevels, caster, isMostPowerful, spell) $1 end)"
+        ]
+    },
+    "StatusApplied": {
+        "prefix": "statusapplied",
+        "scope": "lua",
+        "description": "statusapplied listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StatusApplied\", 4, \"after\", function(object, storyActionID, status, causee) $1 end)"
+        ]
+    },
+    "StatusAttempt": {
+        "prefix": "statusattempt",
+        "scope": "lua",
+        "description": "statusattempt listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StatusAttempt\", 4, \"after\", function(object, storyActionID, status, causee) $1 end)"
+        ]
+    },
+    "StatusAttemptFailed": {
+        "prefix": "statusattemptfailed",
+        "scope": "lua",
+        "description": "statusattemptfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StatusAttemptFailed\", 4, \"after\", function(object, storyActionID, status, causee) $1 end)"
+        ]
+    },
+    "StatusRemoved": {
+        "prefix": "statusremoved",
+        "scope": "lua",
+        "description": "statusremoved listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StatusRemoved\", 4, \"after\", function(object, status, causee, applyStoryActionID) $1 end)"
+        ]
+    },
+    "StatusTagCleared": {
+        "prefix": "statustagcleared",
+        "scope": "lua",
+        "description": "statustagcleared listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StatusTagCleared\", 5, \"after\", function(tag, target, sourceOwner, storyActionID, source2) $1 end)"
+        ]
+    },
+    "StatusTagSet": {
+        "prefix": "statustagset",
+        "scope": "lua",
+        "description": "statustagset listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StatusTagSet\", 5, \"after\", function(tag, target, sourceOwner, storyActionID, source2) $1 end)"
+        ]
+    },
+    "StoppedCombining": {
+        "prefix": "stoppedcombining",
+        "scope": "lua",
+        "description": "stoppedcombining listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StoppedCombining\", 6, \"after\", function(item4, item2, character, item1, item3, item5) $1 end)"
+        ]
+    },
+    "StoppedDisarmingTrap": {
+        "prefix": "stoppeddisarmingtrap",
+        "scope": "lua",
+        "description": "stoppeddisarmingtrap listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StoppedDisarmingTrap\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "StoppedLockpicking": {
+        "prefix": "stoppedlockpicking",
+        "scope": "lua",
+        "description": "stoppedlockpicking listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StoppedLockpicking\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "StoppedSneaking": {
+        "prefix": "stoppedsneaking",
+        "scope": "lua",
+        "description": "stoppedsneaking listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"StoppedSneaking\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "SubQuestUpdateUnlocked": {
+        "prefix": "subquestupdateunlocked",
+        "scope": "lua",
+        "description": "subquestupdateunlocked listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SubQuestUpdateUnlocked\", 3, \"after\", function(character, stateID, subQuestID) $1 end)"
+        ]
+    },
+    "SupplyTemplateSpent": {
+        "prefix": "supplytemplatespent",
+        "scope": "lua",
+        "description": "supplytemplatespent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SupplyTemplateSpent\", 2, \"after\", function(amount, templateId) $1 end)"
+        ]
+    },
+    "SwarmAIGroupJoined": {
+        "prefix": "swarmaigroupjoined",
+        "scope": "lua",
+        "description": "swarmaigroupjoined listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SwarmAIGroupJoined\", 2, \"after\", function(object, group) $1 end)"
+        ]
+    },
+    "SwarmAIGroupLeft": {
+        "prefix": "swarmaigroupleft",
+        "scope": "lua",
+        "description": "swarmaigroupleft listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SwarmAIGroupLeft\", 2, \"after\", function(object, group) $1 end)"
+        ]
+    },
+    "SwitchedCombat": {
+        "prefix": "switchedcombat",
+        "scope": "lua",
+        "description": "switchedcombat listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"SwitchedCombat\", 3, \"after\", function(object, newCombatGuid, oldCombatGuid) $1 end)"
+        ]
+    },
+    "TadpolePowerAssigned": {
+        "prefix": "tadpolepowerassigned",
+        "scope": "lua",
+        "description": "tadpolepowerassigned listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TadpolePowerAssigned\", 2, \"after\", function(character, power) $1 end)"
+        ]
+    },
+    "TagCleared": {
+        "prefix": "tagcleared",
+        "scope": "lua",
+        "description": "tagcleared listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TagCleared\", 2, \"after\", function(tag, target) $1 end)"
+        ]
+    },
+    "TagEvent": {
+        "prefix": "tagevent",
+        "scope": "lua",
+        "description": "tagevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TagEvent\", 2, \"after\", function(tag, event) $1 end)"
+        ]
+    },
+    "TagSet": {
+        "prefix": "tagset",
+        "scope": "lua",
+        "description": "tagset listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TagSet\", 2, \"after\", function(tag, target) $1 end)"
+        ]
+    },
+    "TeleportToFleeWaypoint": {
+        "prefix": "teleporttofleewaypoint",
+        "scope": "lua",
+        "description": "teleporttofleewaypoint listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TeleportToFleeWaypoint\", 2, \"after\", function(character, trigger) $1 end)"
+        ]
+    },
+    "TeleportToFromCamp": {
+        "prefix": "teleporttofromcamp",
+        "scope": "lua",
+        "description": "teleporttofromcamp listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TeleportToFromCamp\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "TeleportToWaypoint": {
+        "prefix": "teleporttowaypoint",
+        "scope": "lua",
+        "description": "teleporttowaypoint listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TeleportToWaypoint\", 2, \"after\", function(character, trigger) $1 end)"
+        ]
+    },
+    "Teleported": {
+        "prefix": "teleported",
+        "scope": "lua",
+        "description": "teleported listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Teleported\", 9, \"after\", function(spell, target, oldY, oldX, newY, oldZ, cause, newX, newZ) $1 end)"
+        ]
+    },
+    "TeleportedFromCamp": {
+        "prefix": "teleportedfromcamp",
+        "scope": "lua",
+        "description": "teleportedfromcamp listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TeleportedFromCamp\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "TeleportedToCamp": {
+        "prefix": "teleportedtocamp",
+        "scope": "lua",
+        "description": "teleportedtocamp listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TeleportedToCamp\", 1, \"after\", function(character) $1 end)"
+        ]
+    },
+    "TemplateAddedTo": {
+        "prefix": "templateaddedto",
+        "scope": "lua",
+        "description": "templateaddedto listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateAddedTo\", 4, \"after\", function(addType, objectTemplate, object2, inventoryHolder) $1 end)"
+        ]
+    },
+    "TemplateDestroyedBy": {
+        "prefix": "templatedestroyedby",
+        "scope": "lua",
+        "description": "templatedestroyedby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateDestroyedBy\", 5, \"after\", function(destroyerOwner, item2, itemTemplate, storyActionID, destroyer) $1 end)"
+        ]
+    },
+    "TemplateEnteredTrigger": {
+        "prefix": "templateenteredtrigger",
+        "scope": "lua",
+        "description": "templateenteredtrigger listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateEnteredTrigger\", 5, \"after\", function(itemTemplate, item2, mover, owner, trigger) $1 end)"
+        ]
+    },
+    "TemplateEquipped": {
+        "prefix": "templateequipped",
+        "scope": "lua",
+        "description": "templateequipped listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateEquipped\", 2, \"after\", function(itemTemplate, character) $1 end)"
+        ]
+    },
+    "TemplateKilledBy": {
+        "prefix": "templatekilledby",
+        "scope": "lua",
+        "description": "templatekilledby listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateKilledBy\", 5, \"after\", function(defender, characterTemplate, attackOwner, storyActionID, attacker) $1 end)"
+        ]
+    },
+    "TemplateLeftTrigger": {
+        "prefix": "templatelefttrigger",
+        "scope": "lua",
+        "description": "templatelefttrigger listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateLeftTrigger\", 5, \"after\", function(itemTemplate, item2, mover, owner, trigger) $1 end)"
+        ]
+    },
+    "TemplateOpening": {
+        "prefix": "templateopening",
+        "scope": "lua",
+        "description": "templateopening listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateOpening\", 3, \"after\", function(itemTemplate, item2, character) $1 end)"
+        ]
+    },
+    "TemplateRemovedFrom": {
+        "prefix": "templateremovedfrom",
+        "scope": "lua",
+        "description": "templateremovedfrom listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateRemovedFrom\", 3, \"after\", function(objectTemplate, object2, inventoryHolder) $1 end)"
+        ]
+    },
+    "TemplateUnequipped": {
+        "prefix": "templateunequipped",
+        "scope": "lua",
+        "description": "templateunequipped listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateUnequipped\", 2, \"after\", function(itemTemplate, character) $1 end)"
+        ]
+    },
+    "TemplateUseFinished": {
+        "prefix": "templateusefinished",
+        "scope": "lua",
+        "description": "templateusefinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateUseFinished\", 4, \"after\", function(itemTemplate, character, item2, sucess) $1 end)"
+        ]
+    },
+    "TemplateUseStarted": {
+        "prefix": "templateusestarted",
+        "scope": "lua",
+        "description": "templateusestarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplateUseStarted\", 3, \"after\", function(itemTemplate, item2, character) $1 end)"
+        ]
+    },
+    "TemplatesCombined": {
+        "prefix": "templatescombined",
+        "scope": "lua",
+        "description": "templatescombined listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemplatesCombined\", 7, \"after\", function(character, template5, template3, template4, newItem, template2, template1) $1 end)"
+        ]
+    },
+    "TemporaryHostileRelationRemoved": {
+        "prefix": "temporaryhostilerelationremoved",
+        "scope": "lua",
+        "description": "temporaryhostilerelationremoved listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemporaryHostileRelationRemoved\", 3, \"after\", function(targetFaction, sourceFaction, enemy) $1 end)"
+        ]
+    },
+    "TemporaryHostileRelationRequestHandled": {
+        "prefix": "temporaryhostilerelationrequesthandled",
+        "scope": "lua",
+        "description": "temporaryhostilerelationrequesthandled listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TemporaryHostileRelationRequestHandled\", 3, \"after\", function(success, character1, character2) $1 end)"
+        ]
+    },
+    "TextEvent": {
+        "prefix": "textevent",
+        "scope": "lua",
+        "description": "textevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TextEvent\", 1, \"after\", function(event) $1 end)"
+        ]
+    },
+    "TimelineScreenFadeStarted": {
+        "prefix": "timelinescreenfadestarted",
+        "scope": "lua",
+        "description": "timelinescreenfadestarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TimelineScreenFadeStarted\", 3, \"after\", function(userID, dialog2, dialogInstanceId) $1 end)"
+        ]
+    },
+    "TimerFinished": {
+        "prefix": "timerfinished",
+        "scope": "lua",
+        "description": "timerfinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TimerFinished\", 1, \"after\", function(timer) $1 end)"
+        ]
+    },
+    "TradeEnds": {
+        "prefix": "tradeends",
+        "scope": "lua",
+        "description": "tradeends listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TradeEnds\", 2, \"after\", function(trader, character) $1 end)"
+        ]
+    },
+    "TradeGenerationEnded": {
+        "prefix": "tradegenerationended",
+        "scope": "lua",
+        "description": "tradegenerationended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TradeGenerationEnded\", 1, \"after\", function(trader) $1 end)"
+        ]
+    },
+    "TradeGenerationStarted": {
+        "prefix": "tradegenerationstarted",
+        "scope": "lua",
+        "description": "tradegenerationstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TradeGenerationStarted\", 1, \"after\", function(trader) $1 end)"
+        ]
+    },
+    "TurnEnded": {
+        "prefix": "turnended",
+        "scope": "lua",
+        "description": "turnended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TurnEnded\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "TurnStarted": {
+        "prefix": "turnstarted",
+        "scope": "lua",
+        "description": "turnstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TurnStarted\", 1, \"after\", function(object) $1 end)"
+        ]
+    },
+    "TutorialBoxClosed": {
+        "prefix": "tutorialboxclosed",
+        "scope": "lua",
+        "description": "tutorialboxclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TutorialBoxClosed\", 2, \"after\", function(character, message) $1 end)"
+        ]
+    },
+    "TutorialClosed": {
+        "prefix": "tutorialclosed",
+        "scope": "lua",
+        "description": "tutorialclosed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TutorialClosed\", 2, \"after\", function(entryId, userId) $1 end)"
+        ]
+    },
+    "TutorialEvent": {
+        "prefix": "tutorialevent",
+        "scope": "lua",
+        "description": "tutorialevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"TutorialEvent\", 2, \"after\", function(entity, event) $1 end)"
+        ]
+    },
+    "UnequipFailed": {
+        "prefix": "unequipfailed",
+        "scope": "lua",
+        "description": "unequipfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UnequipFailed\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "Unequipped": {
+        "prefix": "unequipped",
+        "scope": "lua",
+        "description": "unequipped listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Unequipped\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "Unlocked": {
+        "prefix": "unlocked",
+        "scope": "lua",
+        "description": "unlocked listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"Unlocked\", 3, \"after\", function(character, key, item) $1 end)"
+        ]
+    },
+    "UnlockedRecipe": {
+        "prefix": "unlockedrecipe",
+        "scope": "lua",
+        "description": "unlockedrecipe listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UnlockedRecipe\", 2, \"after\", function(character, recipe) $1 end)"
+        ]
+    },
+    "UseFinished": {
+        "prefix": "usefinished",
+        "scope": "lua",
+        "description": "usefinished listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UseFinished\", 3, \"after\", function(character, sucess, item) $1 end)"
+        ]
+    },
+    "UseStarted": {
+        "prefix": "usestarted",
+        "scope": "lua",
+        "description": "usestarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UseStarted\", 2, \"after\", function(character, item) $1 end)"
+        ]
+    },
+    "UserAvatarCreated": {
+        "prefix": "useravatarcreated",
+        "scope": "lua",
+        "description": "useravatarcreated listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UserAvatarCreated\", 3, \"after\", function(daisy, userID, avatar) $1 end)"
+        ]
+    },
+    "UserCampChestChanged": {
+        "prefix": "usercampchestchanged",
+        "scope": "lua",
+        "description": "usercampchestchanged listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UserCampChestChanged\", 2, \"after\", function(chest, userID) $1 end)"
+        ]
+    },
+    "UserCharacterLongRested": {
+        "prefix": "usercharacterlongrested",
+        "scope": "lua",
+        "description": "usercharacterlongrested listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UserCharacterLongRested\", 2, \"after\", function(character, isFullRest) $1 end)"
+        ]
+    },
+    "UserConnected": {
+        "prefix": "userconnected",
+        "scope": "lua",
+        "description": "userconnected listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UserConnected\", 3, \"after\", function(userProfileID, userID, userName) $1 end)"
+        ]
+    },
+    "UserDisconnected": {
+        "prefix": "userdisconnected",
+        "scope": "lua",
+        "description": "userdisconnected listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UserDisconnected\", 3, \"after\", function(userProfileID, userID, userName) $1 end)"
+        ]
+    },
+    "UserEvent": {
+        "prefix": "userevent",
+        "scope": "lua",
+        "description": "userevent listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UserEvent\", 2, \"after\", function(userEvent, userID) $1 end)"
+        ]
+    },
+    "UserMakeWar": {
+        "prefix": "usermakewar",
+        "scope": "lua",
+        "description": "usermakewar listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UserMakeWar\", 3, \"after\", function(targetUserID, war, sourceUserID) $1 end)"
+        ]
+    },
+    "UsingSpell": {
+        "prefix": "usingspell",
+        "scope": "lua",
+        "description": "usingspell listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UsingSpell\", 5, \"after\", function(spell, spellElement, storyActionID, caster, spellType) $1 end)"
+        ]
+    },
+    "UsingSpellAtPosition": {
+        "prefix": "usingspellatposition",
+        "scope": "lua",
+        "description": "usingspellatposition listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UsingSpellAtPosition\", 8, \"after\", function(x, spell, y, storyActionID, spellType, spellElement, z, caster) $1 end)"
+        ]
+    },
+    "UsingSpellInTrigger": {
+        "prefix": "usingspellintrigger",
+        "scope": "lua",
+        "description": "usingspellintrigger listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UsingSpellInTrigger\", 6, \"after\", function(spell, spellElement, storyActionID, caster, spellType, trigger) $1 end)"
+        ]
+    },
+    "UsingSpellOnTarget": {
+        "prefix": "usingspellontarget",
+        "scope": "lua",
+        "description": "usingspellontarget listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UsingSpellOnTarget\", 6, \"after\", function(spell, spellElement, target, storyActionID, caster, spellType) $1 end)"
+        ]
+    },
+    "UsingSpellOnZoneWithTarget": {
+        "prefix": "usingspellonzonewithtarget",
+        "scope": "lua",
+        "description": "usingspellonzonewithtarget listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"UsingSpellOnZoneWithTarget\", 6, \"after\", function(spell, spellElement, target, storyActionID, caster, spellType) $1 end)"
+        ]
+    },
+    "VoiceBarkEnded": {
+        "prefix": "voicebarkended",
+        "scope": "lua",
+        "description": "voicebarkended listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"VoiceBarkEnded\", 2, \"after\", function(bark, instanceID) $1 end)"
+        ]
+    },
+    "VoiceBarkFailed": {
+        "prefix": "voicebarkfailed",
+        "scope": "lua",
+        "description": "voicebarkfailed listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"VoiceBarkFailed\", 1, \"after\", function(bark) $1 end)"
+        ]
+    },
+    "VoiceBarkStarted": {
+        "prefix": "voicebarkstarted",
+        "scope": "lua",
+        "description": "voicebarkstarted listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"VoiceBarkStarted\", 2, \"after\", function(bark, instanceID) $1 end)"
+        ]
+    },
+    "WentOnStage": {
+        "prefix": "wentonstage",
+        "scope": "lua",
+        "description": "wentonstage listener",
+        "body": [
+            "Ext.Osiris.RegisterListener(\"WentOnStage\", 2, \"after\", function(object, isOnStageNow) $1 end)"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bg3-se-snippets",
+  "displayName": "BG3-SE-Snippets",
+  "description": "Code snippets for the baldur's gate 3 script extender, mainly events listeners",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
