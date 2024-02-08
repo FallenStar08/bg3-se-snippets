@@ -1,0 +1,27 @@
+{
+    "BeforeSave": {
+        "prefix": "beforesave",
+        "scope": "lua",
+        "description": "Do something before the game saves",
+        "body": [
+            "Ext.Events.GameStateChanged:Subscribe(function(e)\n\tif e.FromState == \"Running\" and e.ToState==\"Save\" then\n\t\t$1\n\tend\nend)"
+        ]
+    },
+    "AfterSave": {
+        "prefix": "aftersave",
+        "scope": "lua",
+        "description": "do something after the game saves",
+        "body": [
+            "Ext.Events.GameStateChanged:Subscribe(function(e)\n\tif e.FromState == \"Save\" and e.ToState==\"Running\" then\n\t\t$1\n\tend\nend)"
+        ]
+    },
+    "BeforeAfterSave": {
+        "prefix": "beforeaftersave",
+        "scope": "lua",
+        "description": "do something before and after the game saves",
+        "body": [
+            "Ext.Events.GameStateChanged:Subscribe(function(e)\n\tif e.FromState == \"Running\" and e.ToState==\"Save\" then\n\t\t$1\n\telseif e.FromState == \"Save\" and e.ToState==\"Running\" then\n\t\t$2\n\tend\nend)"
+        ]
+    },
+
+}
