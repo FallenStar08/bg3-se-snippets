@@ -20,3 +20,7 @@
 ## [1.0.4] - 2024-03-21
 
 - Added bg3uuid & bg3handle snippets
+
+## [1.0.5] - 2024-03-21
+
+- Separated general stuff from the lua only stuff
