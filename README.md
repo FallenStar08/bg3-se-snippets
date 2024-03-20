@@ -10,7 +10,8 @@ Lua code snippets for the [baldur's gate 3 script extender](https://github.com/N
 ## Features
 
 - Snippets for all Osiris events
-- More to come, maybe
+- Snippets for save related engine events
+- Snippets for UUID & Handle generation (bg3uuid & bg3handle)
 
 ## Installation
 

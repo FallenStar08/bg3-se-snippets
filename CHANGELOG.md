@@ -24,3 +24,7 @@
 ## [1.0.5] - 2024-03-21
 
 - Separated general stuff from the lua only stuff
+
+## [1.0.6] - 2024-03-21
+
+- Fix language for uuid & handle generation
