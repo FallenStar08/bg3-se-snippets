@@ -1,0 +1,12 @@
+{
+    "bg3uuid": {
+        "prefix": "bg3uuid",
+        "body": "${UUID}",
+        "description": "Expand bg3uuid to a generated uuid"
+    },
+    "bg3handle": {
+        "prefix": "bg3handle",
+        "body": "h${UUID/[-]/g/g}",
+        "description": "Expand bg3handle to a generated handle"
+    },
+}

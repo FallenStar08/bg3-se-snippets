@@ -24,6 +24,10 @@
       {
         "language": "lua",
         "path": "./snippets/handMade.code-snippets"
+      },
+      {
+        "language": "*",
+        "path": "./snippets/general.code-snippets"
       }
     ]
   }
