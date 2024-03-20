@@ -16,3 +16,7 @@
 ## [1.0.3] - 2024-03-02
 
 - Fixed generated params order
+
+## [1.0.4] - 2024-03-21
+
+- Added bg3uuid & bg3handle snippets
