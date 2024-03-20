@@ -23,5 +23,14 @@
             "Ext.Events.GameStateChanged:Subscribe(function(e)\n\tif e.FromState == \"Running\" and e.ToState==\"Save\" then\n\t\t$1\n\telseif e.FromState == \"Save\" and e.ToState==\"Running\" then\n\t\t$2\n\tend\nend)"
         ]
     },
-
+    "bg3uuid": {
+        "prefix": "bg3uuid",
+        "body": "${UUID}",
+        "description": "Expand bg3uuid to a generated uuid"
+    },
+    "bg3handle": {
+        "prefix": "bg3handle",
+        "body": "h${UUID/[-]/g/g}",
+        "description": "Expand bg3handle to a generated handle"
+    },
 }
