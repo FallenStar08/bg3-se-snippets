@@ -28,3 +28,8 @@
 ## [1.0.6] - 2024-03-21
 
 - Fix language for uuid & handle generation
+
+
+## [1.0.7] - 2024-05-31
+
+- Fix arity 0 events having an arity of 1
